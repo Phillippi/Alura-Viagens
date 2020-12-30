@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D29CCD8259C07E600327089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D29CCD7259C07E600327089 /* Main.storyboard */; };
 		4D5D613B259A15B600CB776F /* PacotesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D613A259A15B600CB776F /* PacotesViagensViewController.swift */; };
 		4D5D613E259A171A00CB776F /* PacoteViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D613D259A171A00CB776F /* PacoteViagemCollectionViewCell.swift */; };
 		4D5D6144259A71EE00CB776F /* DetalhesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D6143259A71EE00CB776F /* DetalhesViagensViewController.swift */; };
@@ -38,10 +39,10 @@
 		4DCDAAA2259B5B9D001979F8 /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDAA91259B5B9D001979F8 /* img10.jpg */; };
 		4DCDAAA3259B5B9D001979F8 /* icon_hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDAA92259B5B9D001979F8 /* icon_hotel.png */; };
 		4DE52D2A259BBF6D00D3C855 /* ConfirmacaoPagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE52D29259BBF6D00D3C855 /* ConfirmacaoPagamentoViewController.swift */; };
-		4DE52D31259BCB1200D3C855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE52D30259BCB1200D3C855 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D29CCD7259C07E600327089 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4D5D613A259A15B600CB776F /* PacotesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensViewController.swift; sourceTree = "<group>"; };
 		4D5D613D259A171A00CB776F /* PacoteViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemCollectionViewCell.swift; sourceTree = "<group>"; };
 		4D5D6143259A71EE00CB776F /* DetalhesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagensViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +76,6 @@
 		4DCDAA91259B5B9D001979F8 /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
 		4DCDAA92259B5B9D001979F8 /* icon_hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hotel.png; sourceTree = "<group>"; };
 		4DE52D29259BBF6D00D3C855 /* ConfirmacaoPagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoPagamentoViewController.swift; sourceTree = "<group>"; };
-		4DE52D30259BCB1200D3C855 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 				4DE52D27259BBF1D00D3C855 /* ConfirmacaoPagamento */,
 				4DAD18E22593EF23001AACE6 /* ViagemDAO */,
 				4DAD18A82593BE63001AACE6 /* SceneDelegate.swift */,
-				4DE52D30259BCB1200D3C855 /* Main.storyboard */,
+				4D29CCD7259C07E600327089 /* Main.storyboard */,
 				4DCDAA81259B5B9C001979F8 /* Assets */,
 				4DAD18AF2593BE64001AACE6 /* Assets.xcassets */,
 				4DAD18B12593BE64001AACE6 /* LaunchScreen.storyboard */,
@@ -315,7 +315,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE52D31259BCB1200D3C855 /* Main.storyboard in Resources */,
 				4DCDAA9F259B5B9D001979F8 /* icon_breakfast.png in Resources */,
 				4DCDAA95259B5B9D001979F8 /* icon_package@2x.png in Resources */,
 				4DCDAA9E259B5B9D001979F8 /* img2.jpg in Resources */,
@@ -327,6 +326,7 @@
 				4DCDAA93259B5B9D001979F8 /* icon_back.png in Resources */,
 				4DAD18B02593BE64001AACE6 /* Assets.xcassets in Resources */,
 				4DCDAA97259B5B9D001979F8 /* img8.jpg in Resources */,
+				4D29CCD8259C07E600327089 /* Main.storyboard in Resources */,
 				4DCDAA9C259B5B9D001979F8 /* img7.jpg in Resources */,
 				4DCDAAA2259B5B9D001979F8 /* img10.jpg in Resources */,
 				4DCDAA94259B5B9D001979F8 /* icon_search@2x.png in Resources */,

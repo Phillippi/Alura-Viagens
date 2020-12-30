@@ -42,7 +42,9 @@ class DetalhesViagensViewController: UIViewController {
 
     
     @IBAction func botaoVoltar(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        if let navigation = navigationController {
+            navigation.popViewController(animated: true)
+        }
     }
     
     @IBAction func textFieldEntrouFoco(_ sender: UITextField) {
